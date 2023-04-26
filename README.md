@@ -12,11 +12,15 @@ After importing psb, you can no longer set Category and Label of layers in Skinn
 
    If you have set Category Label or Skeleton (bone) before Unity2021, in Unity Project -> psb file
    Since Sprite Library Asset and Skeleton Asset are stored (because it has become a ReadOnlyFile), copy and use it
+   ![image](https://user-images.githubusercontent.com/33142993/234666078-bb0c1bfb-9443-4a36-8543-c6f092098560.png)
+
 
    * In the settings of the PSD Importer on the psbfile inspector
    LayerImport -> LayerMapping: Use Layer Name
    If you do, the state of the Character will not be destroyed even if you add a layer to the psbfile later and overwrite it.
    If you don't do this, you'll need to redefine the connection between Sprite and Bone on the SkinnEditor.
+   ![image](https://user-images.githubusercontent.com/33142993/234665843-2dd82e1b-54ea-4754-9bd1-ae99a7534e42.png)
+
 
    * Sprite Editor -> Skinning Editor settings for Bone and Sprite strings
    Assets/Resources/Characters/Akane2D/Akane2D2.psb.meta is edited and reflected
@@ -30,6 +34,7 @@ After importing psb, you can no longer set Category and Label of layers in Skinn
    Assign Bone from Geometry -> Bone Influence to each Sprite
    After assigning bones to all sprites, set the range of bones that affect the sprites from Geometry -> AutoGeometry
    When everything is finished, press the Apply button on the upper right of the Window
+   ![image](https://user-images.githubusercontent.com/33142993/234666428-e80acc37-2060-4d7d-846b-4bbfd8a28a81.png)
 
 
    How to generate Skeleton assets
