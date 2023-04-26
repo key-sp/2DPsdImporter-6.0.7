@@ -1,5 +1,9 @@
 # 2DPsdImporter-6.0.7
 
+Animation with Sprite Resolver 
+The psb file is imported with the folder, so that even if layers are added later and the guid changes, it can be updated without breaking the connection between Bone and Sprite no.
+![2DPsdImporter-6 0 7](https://user-images.githubusercontent.com/33142993/234664652-604ffc3c-f7a8-4afb-bb70-285ad3a21768.gif)
+
 After importing psb, you can no longer set Category and Label of layers in SkinnEditor from Unity2021
    Create a new Sprite Library Asset, Skeleton Asset and save it to a psb file
    psbfile (project inspector) -> Character Rig: Main Skeleton
