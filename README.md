@@ -21,11 +21,19 @@ After importing psb, you can no longer set Category and Label of layers in Skinn
    If you do, the state of the Character will not be destroyed even if you add a layer to the psbfile later and overwrite it.
    If you don't do this, you'll need to redefine the connection between Sprite and Bone on the SkinnEditor.
    
+   If User Layer Group is checked, even if the psb file has a hierarchical structure with folders
+   The hierarchical structure is maintained both on the Skinning Editor of the loaded psb file and on the hierarchy.
+   
    ![image](https://user-images.githubusercontent.com/33142993/234665843-2dd82e1b-54ea-4754-9bd1-ae99a7534e42.png)
    
+   Psb Layer
    <img width="1552" alt="image" src="https://user-images.githubusercontent.com/33142993/234803777-000768a6-f922-494c-8e7a-47901e21ce7e.png">
 
+   Skinning Editor
    <img width="1364" alt="image" src="https://user-images.githubusercontent.com/33142993/234804229-f8751787-2951-4671-b289-b6fefae10086.png">
+   
+   Hierarchy
+   <img width="1064" alt="image" src="https://user-images.githubusercontent.com/33142993/234805864-691c8896-c0df-4e1d-adc3-3e24f675613d.png">
 
 
    * Sprite Editor -> Skinning Editor settings for Bone and Sprite strings
