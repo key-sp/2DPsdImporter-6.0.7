@@ -1,4 +1,4 @@
-# 2DPsdImporter-6.0.7
+# 2DPsdImporter-6.0.7 Best Practice
 
 Animation with Sprite Resolver 
 The psb file is imported with the folder, so that even if layers are added later and the guid changes, it can be updated without breaking the connection between Bone and Sprite no.
